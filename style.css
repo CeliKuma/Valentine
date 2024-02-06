@@ -1,0 +1,38 @@
+html{
+    margin: 0 auto;
+}
+#switcher{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+div{
+    display:flex;
+    justify-content:center;
+}
+img{
+    display:flex;
+    margin: 0 auto;
+    width:500px;
+}
+p{
+    text-align:center;
+    font-size: 40px;
+}
+button{
+   height:80px;
+   width:150px;
+   margin:30px;
+   background-color:#d48a8a;
+   color:#610d0d;
+   font-size:25px;
+}
+button:hover{
+    background-color:#610d0d;
+    color:#d48a8a;
+}
+#switcher .currentGif{
+    display:block;
+}
+.hiddenGif{
+    display:none;
+}
